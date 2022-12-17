@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'B612', sans-serif;
+    font-weight: 600;
+}
+
+main {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url('./assets/images/backgroundMovie.jpg');
+    background-size: cover;
+    padding: 0 64px;
+}
