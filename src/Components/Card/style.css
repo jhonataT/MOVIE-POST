@@ -1,0 +1,20 @@
+.card__container {
+    height: 400px;
+    background-color: black;
+}
+
+.card-image__container {
+    width: 200px;
+    height: 250px;
+
+    border-radius: 20px;
+    position: relative;
+}
+
+.card-image__container > img {
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    object-fit: cover;
+}

@@ -15,5 +15,11 @@ main {
     min-width: 100vw;
     background-image: url('./assets/images/backgroundMovie.jpg');
     background-size: cover;
-    padding: 0 64px;
+}
+
+.main__container {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 64px;
 }
