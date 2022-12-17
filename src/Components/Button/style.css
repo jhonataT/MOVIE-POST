@@ -1,0 +1,31 @@
+.button__container {
+    height: 50px;
+    width: 180px;
+    background-color: #0072d2;
+
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.button__container a {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__container.disabled {
+    opacity: .5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.button__container.secondary {
+    width: 130px;
+    margin-left: 15px;
+    background-color: #131318;
+    
+    border: 1px solid #ffff;
+}

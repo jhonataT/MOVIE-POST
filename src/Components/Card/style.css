@@ -1,6 +1,14 @@
 .card__container {
-    height: 400px;
-    background-color: black;
+    max-width: 1024px;
+    min-height: 400px;
+    /* background-color: black; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 64px;
+    margin-top: 10px;
 }
 
 .card-image__container {
